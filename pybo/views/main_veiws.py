@@ -10,6 +10,6 @@ def index():
 def hello_world():
     return 'Hello Pybo!'
 
-@bp.rorte('/bye')
+@bp.route('/bye')
 def bye_world():
     return 'Bye Pybo!'
